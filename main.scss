@@ -10,8 +10,35 @@ body {
 
 h1, h2, h3 {
     font-weight: 400;
+    font-weight: 500;
+    font-family: "IM Fell English SC", serif;
 }
 
 a {
     color: #fff;
+    text-decoration: none;
+}
+
++header {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    padding: 1rem;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+
+    .social-icons{
+        position: fixed;
+        bottom: 1rem;
+        left: 1rem;
+        a{
+            padding: 0.4rem;
+            &:hover {
+                color: $secondary-color;
+            }
+        }
+    }
 }
