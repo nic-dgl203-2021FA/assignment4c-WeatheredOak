@@ -29,7 +29,7 @@
 }
 
 body {
-  background-color: #272727;
+  background: #272727;
   color: #fff;
   height: 100vh;
   font-family: "Raleway", sans-serif;
@@ -38,7 +38,6 @@ body {
 
 h1, h2, h3 {
   font-weight: 400;
-  font-weight: 500;
   font-family: "IM Fell English SC", serif;
 }
 
