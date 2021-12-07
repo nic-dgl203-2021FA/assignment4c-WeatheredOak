@@ -154,7 +154,33 @@
         }
     }
 
+    .cloud3 {
+        animation: float 20s linear infinite;
+    }
     
+    .cloud4 {
+        animation: float 25s 5s linear infinite backwards;
+    }
 
+    @keyframes float {
+        0% {
+            transform: translateX(-800px);
+        }
+        100% {
+            transform: translateX(820px);
+        }
+    }
+
+    .cloud {
+        position: absolute;
+    }
+
+    .cloud4 {
+        top: 76px;
+    }
+    
+    .cloud3 {
+        top: 30px;
+    }
 
 }
