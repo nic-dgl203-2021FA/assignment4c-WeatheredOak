@@ -24,7 +24,7 @@
   border-bottom: 2px solid #fff;
 }
 .home__name--last {
-  color: #ff652f;
+  color: #A20104;
   font-weight: 700;
 }
 
@@ -134,7 +134,7 @@
           transform: translateX(0);
 }
 .nav .menu-nav__item.active > a {
-  color: #ff652f;
+  color: #A20104;
 }
 .nav .menu-nav__link {
   display: inline-block;
@@ -146,7 +146,7 @@
   transition: all 0.5s ease-in-out;
 }
 .nav .menu-nav__link:hover {
-  color: #ff652f;
+  color: #A20104;
 }
 
 .menu-nav__item:nth-child(1) {
@@ -212,7 +212,7 @@
 .about .jobs__job {
   background: #414141;
   padding: 0.5rem;
-  border-bottom: 5px solid #ff652f;
+  border-bottom: 5px solid #A20104;
 }
 .about .jobs__job h2, .about .jobs__job h3 {
   margin: 0.5rem 0;
@@ -270,7 +270,7 @@
 }
 .projects__item {
   position: relative;
-  border-bottom: 5px solid #ff652f;
+  border-bottom: 5px solid #A20104;
   overflow: hidden;
   cursor: pointer;
   /* This will bring up a cool overlay on hover. Noted for future reference.*/
@@ -285,7 +285,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: #ff652f;
+  background: #A20104;
   opacity: 0;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -312,12 +312,12 @@
 }
 .projects__btn {
   opacity: 0;
-  color: #000;
+  color: #fff;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 .projects__btn:hover {
-  color: #fff;
+  color: #000;
 }
 .projects .social-icons {
   display: -webkit-box;
@@ -352,7 +352,7 @@ a {
 }
 
 .text-secondary {
-  color: #ff652f;
+  color: #A20104;
 }
 
 header {
@@ -377,7 +377,7 @@ main .social-icons a {
   transition: all 0.5s ease-in-out;
 }
 main .social-icons a:hover {
-  color: #ff652f;
+  color: #A20104;
 }
 
 footer {
