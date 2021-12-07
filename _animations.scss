@@ -5,6 +5,9 @@
     height:4fr;
     background: radial-gradient(farthest-corner at 30vw 20vh,#5b848f 1%,#312c41 100%);
     border-top: 5px solid $secondary-color;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
     
 
     /* Snowfall animation sourced from this website https://redstapler.co/pure-css-snow-fall-effect/
@@ -92,10 +95,12 @@
     width:4fr;
     height:4fr;
     background: radial-gradient(farthest-corner at 30vw 20vh,#5b848f 1%,#312c41 100%);
+    align-items: center;
+    position: relative;
+    overflow: hidden;
 
 
 
 
 
-    
 }
