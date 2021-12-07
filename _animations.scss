@@ -2,10 +2,10 @@
 
 .snow-wrap {
     width:100vw;
-    height:100vh;
+    height:110vh;
     background: radial-gradient(farthest-corner at 30vw 20vh,#5b848f 1%,#312c41 100%);
     border-top: 5px solid $secondary-color;
-    border-bottom: 2px solid $secondary-color;
+    
 
     /* Snowfall animation sourced from this website https://redstapler.co/pure-css-snow-fall-effect/
     Modified for snow desity, radial background color, container size*/
@@ -36,7 +36,7 @@
     height: 1.5rem;
     filter:blur(1.5px);
     box-shadow: #{$s1};
-    animation-duration: 6s;
+    animation-duration: 10s;
     }
     .layer1.a {
     animation-delay: -3s;
@@ -46,7 +46,7 @@
     height: 1.2rem;
     filter:blur(3px);
     box-shadow: #{$s2};
-    animation-duration: 8s;
+    animation-duration: 15s;
     }
     .layer2.a {
     animation-delay: -4s;
@@ -56,7 +56,7 @@
     height: 0.8rem;
     filter:blur(6px);
     box-shadow: #{$s3};
-    animation-duration: 10s;
+    animation-duration: 15s;
     }
     .layer3.a {
     animation-delay: -5s;
