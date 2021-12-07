@@ -132,14 +132,14 @@
         animation: boat 3s linear infinite;
         background-repeat: no-repeat;
         bottom: 200px;
-        height: 75px;
+        height: 42px;
         left: 30%;
         position: absolute;
         width: 400px;
     }
     
     .tugboat img {
-        width: 65%;
+        width: 100%;
     }
     
     @keyframes boat {
@@ -154,7 +154,9 @@
         }
     }
 
-    
+    .ufo {
+    animation: float 15s linear infinite;
+    }
     
     @keyframes float {
         0% {
@@ -165,5 +167,12 @@
         }
     }
 
+    .ufo {
+        top: 50px;
+    }
+    
+    img.ufo {
+        width: 60%;
+    }
     
 }
