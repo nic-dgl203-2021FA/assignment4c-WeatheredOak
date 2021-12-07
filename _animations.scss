@@ -99,6 +99,35 @@
     position: relative;
     overflow: hidden;
 
+    .ocean {
+        /* The sea */
+        height: 200px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+    }
+    
+    .ocean img {
+        width: 150%;
+    }
+    
+    .waves {
+        height: 100%;
+        position: absolute;
+        right: 0;
+        animation: waves 10s linear infinite;
+    }
+    
+    @keyframes waves {
+        0% {
+            transform: translate(100px);
+        }
+        100% {
+            transform: translate(10px);
+        }
+    }
+
 
 
 
