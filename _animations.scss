@@ -101,7 +101,7 @@
 
     .ocean {
         /* The sea */
-        height: 200px;
+        height: 125px;
         position: absolute;
         bottom: 0;
         width: 100%;
@@ -116,7 +116,7 @@
         height: 100%;
         position: absolute;
         right: 0;
-        animation: waves 10s linear infinite;
+        animation: waves 15s linear infinite;
     }
     
     @keyframes waves {
@@ -132,7 +132,7 @@
         animation: boat 3s linear infinite;
         background-repeat: no-repeat;
         bottom: 200px;
-        height: 42px;
+        height: 75px;
         left: 30%;
         position: absolute;
         width: 400px;
@@ -166,12 +166,13 @@
             transform: translateX(820px);
         }
     }
-
+    
+    
     .ufo {
         top: 50px;
     }
     
-    img.ufo {
+    .ufo img {
         width: 60%;
     }
     
