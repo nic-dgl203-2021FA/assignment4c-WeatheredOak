@@ -1,8 +1,8 @@
 /* Animations */
 
 .snow-wrap {
-    width:100vw;
-    height:110vh;
+    width:4fr;
+    height:4fr;
     background: radial-gradient(farthest-corner at 30vw 20vh,#5b848f 1%,#312c41 100%);
     border-top: 5px solid $secondary-color;
     
@@ -86,4 +86,16 @@
     width: 100px;
     }
 
+}
+
+.boat-wrap {
+    width:4fr;
+    height:4fr;
+    background: radial-gradient(farthest-corner at 30vw 20vh,#5b848f 1%,#312c41 100%);
+
+
+
+
+
+    
 }
