@@ -39,7 +39,7 @@
     height: 1.5rem;
     filter:blur(1.5px);
     box-shadow: #{$s1};
-    animation-duration: 10s;
+    animation-duration: 12s;
     }
     .layer1.a {
     animation-delay: -3s;
@@ -49,7 +49,7 @@
     height: 1.2rem;
     filter:blur(3px);
     box-shadow: #{$s2};
-    animation-duration: 8s;
+    animation-duration: 10s;
     }
     .layer2.a {
     animation-delay: -4s;
@@ -59,7 +59,7 @@
     height: 0.8rem;
     filter:blur(6px);
     box-shadow: #{$s3};
-    animation-duration: 12s;
+    animation-duration: 14s;
     }
     .layer3.a {
     animation-delay: -5s;
