@@ -154,9 +154,7 @@
         }
     }
 
-    .cloud3 {
-        animation: float 20s linear infinite;
-    }
+    
     
     @keyframes float {
         0% {
@@ -167,15 +165,5 @@
         }
     }
 
-    .cloud {
-        position: absolute;
-    }
- 
-    .cloud3 {
-        top: 60px;
-    }
-
-    .cloud img {
-        width: 50%;
-    }
+    
 }
