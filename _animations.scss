@@ -154,6 +154,41 @@
         }
     }
 
+    .cloud3 {
+        animation: cloud 30s linear infinite;
+        background-repeat: no-repeat;
+        height: 300px;
+        left: 0;
+        position: absolute;
+        width: 297px;
+    }
+    
+    .cloud3 img {
+        width: 50%;
+    }
+
+    .cloud4 {
+        animation: cloud 25s linear infinite;
+        background-repeat: no-repeat;
+        height: 300px;
+        left: 0;
+        position: absolute;
+        width: 297px;
+    }
+    
+    .cloud4 img {
+        width: 50%;
+    }
+    
+    @keyframes cloud {
+        0% {
+            left: -30%;
+        }
+        100% {
+            left: 100%;
+        }
+    }
+
 
 
 }
