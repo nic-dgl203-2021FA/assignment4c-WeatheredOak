@@ -73,7 +73,18 @@
 }
 
 @include media-xl {
-    .projects__bio-image {
+    .projects {
+    &__bio-image {
         height: 50vh;
+        }
+    }
+    .text-secondary {
+        font-size: 6rem;
+    }
+
+    .about{
+        .text-secondary {
+            font-size: 6rem;
+        } 
     }
 }
