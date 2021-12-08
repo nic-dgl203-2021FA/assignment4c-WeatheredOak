@@ -17,6 +17,9 @@
      align-items: center;
      justify-content: flex-end;
      
+      h1 {
+          font-size: 3rem;
+      }
       p {
          margin-bottom: 2rem;
        }
@@ -25,9 +28,10 @@
     &__bio {
         width: 80%;
         text-align: center;
+        padding: 20px;
 
         .text-secondary {
-            padding-bottom: 1rem;
+            padding-bottom: 3rem;
         }
     }
 
