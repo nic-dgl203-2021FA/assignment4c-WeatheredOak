@@ -1,5 +1,11 @@
 /* Responsive */
 
+@include media-sm{
+    .logo img {
+        width: 80px;
+    }  
+}
+
 @include media-md {
     .logo img {
         width: 100px;
@@ -31,7 +37,7 @@
     }
 
     .about__bio {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .projects {
