@@ -3,9 +3,11 @@
 @include media-sm{
     .logo img {
         width: 80px;
-    }  
+    }
+    .about__bio-image p {        
+        margin-bottom: 0;
+    }
 }
-
 @include media-md {
     .logo img {
         width: 100px;
